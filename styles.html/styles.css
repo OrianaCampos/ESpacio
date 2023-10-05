@@ -13,6 +13,7 @@ h1 {color:#A8DADC;
     font-size: xx-large;
     align-content: center;
     text-align: center;
+    background-color: #FFF4E9;
     }
 
 h2 {color:#A8DADC;
@@ -133,12 +134,14 @@ ul li {list-style-type: none;
 
  /*Estilos Exhibiciones*/
  .fotoex {width: 80%;
-    height: auto;}
+    height: auto;
+    margin-left: 7%;}
 
  .fuentes4 {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
-    font-weight: 200;}
+    font-weight: 200;
+    margin-top: 40px;}
 /* grids y flex marketplace*/
 .exhibi {display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -152,8 +155,8 @@ ul li {list-style-type: none;
         grid-template-rows: auto 100% auto;}
 
 /*Estilos Artistas*/
-.fotoar {width: 50%;
-    height: 50%;}
+.fotoar {width: 90%;
+    height: auto;}
      /*nombres propios*/
 .nombres {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
@@ -165,16 +168,37 @@ ul li {list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-size:medium;
     font-weight: 200;}
+/*grid y flex artistas*/
+
+.grid-art {display: grid;
+            grid-template-columns: repeat(4,1fr);}
 /*Estilos Contacto*/
 
  .contacto {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
-    font-weight: 200;}
+    font-weight: 200;
+    margin-bottom: 10px;}
+.datos {background-color: #D6FFEC;
+        justify-content: center;
+        justify-items: center;
+        border: #FFB36C;
+        border-style: solid;
+        padding: 2%;
+        margin-top: 20px;}
+/* grid y flex contacto*/
+.grid-contacto {display: grid;
+                grid-template-columns: repeat(2,1fr);
+                }
 
 /*Estilos acercade*/
-.fotode {width: 50%;
-    height: 50%;}
+
+.fotode1 {height: 50%;}
+.fotode2 {height: 30%;
+        float: right;
+        margin-bottom: 20px;
+         }
+        
 .nombres2 {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
@@ -184,3 +208,21 @@ ul li {list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden-acerca {float: right;}
+/*grid y flex de acercade*/
+.grid-acerca {display: grid;
+          grid-template-columns: 3fr 4fr 3fr;
+           grid-row: 1fr;}
+.fundadores {background-color: #4399B3;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            height: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50px 200px 200px;
+            }  
+.span {grid-column: span 2;}
