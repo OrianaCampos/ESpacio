@@ -51,11 +51,21 @@ ul li {list-style-type: none;
     font-weight: 200;
     text-decoration: none;
     }
-
+.fuentes:hover {color:#2f898d;
+    background-color: #a6ede1 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;}
 .arriba {color:#A8DADC;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;}
+.arriba:hover {color:#2f898d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;}
 
 /*Estilos Index*/
 .presentacion {color:#4399B3;
@@ -155,24 +165,36 @@ ul li {list-style-type: none;
         grid-template-rows: auto 100% auto;}
 
 /*Estilos Artistas*/
-.fotoar {width: 90%;
-    height: auto;}
+.fotoar {width: 160%;
+    height: auto;
+    margin: 10px 0px 10px 60px;}
      /*nombres propios*/
 .nombres {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     font-weight: 200;}
-
+.main-art {display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr) ;
+    align-content: center;}
     /*cv*/
 .cv {color:#4399B3;
     font-family: 'Montserrat', sans-serif;
     font-size:medium;
     font-weight: 200;}
+.cv:hover {color:#4399B3;
+    background-color: #FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    font-weight: 200;}
+
 /*grid y flex artistas*/
 
-.grid-art {display: grid;
+.grid-art { display: grid;
             grid-template-columns: repeat(4,1fr);}
-/*Estilos Contacto*/
+/*Estilos Contacto
+
+Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una franja blanca que no supe arreglar*/
 
  .contacto {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
@@ -186,7 +208,11 @@ ul li {list-style-type: none;
         border-style: solid;
         padding: 2%;
         margin-top: 20px;}
-/* grid y flex contacto*/
+.btn {background-color: #FFB36C;
+        color: #2f898e;}
+.btn:hover {background-color: navajowhite;
+            color: #2f898e;}
+/* grid y flex contacto--*/
 .grid-contacto {display: grid;
                 grid-template-columns: repeat(2,1fr);
                 }
@@ -226,3 +252,68 @@ ul li {list-style-type: none;
             grid-template-rows: 50px 200px 200px;
             }  
 .span {grid-column: span 2;}
+
+
+/*media index*/
+@media (max-width: 576px) {
+    .markett {padding: 0%;
+        margin: 20px 20px 20px 20px;
+        grid-area:markett}
+    .exhibii {
+        grid-area:exhibii;
+        padding: 1%;
+        margin: 20px 0px 20px 0px;}
+    .art {
+        grid-area:art;
+        padding: 1%;
+        margin: 20px 0px 20px 0px;}
+    .cont {
+        grid-area:cont;
+        padding: 1%;
+        margin: 20px 0px 20px 0px;}
+    .acer {
+        grid-area:acer;
+        padding: 1%;
+        margin: 20px 0px 20px 0px;}
+    .header-nav {display: grid;
+                justify-items: auto;
+                justify-content: center;
+                    grid-template-columns: repeat(5,1fr);
+                    grid-template-rows: 1fr;
+                    grid-template-areas: "markett exhibii art cont acer";}
+    .fuentes {font-size: xx-small;
+            align-items: center;
+            align-content: center;
+            }
+    header {justify-content: flex-start;}
+
+    .fuentes:hover {color:#2f898d;
+        background-color: #a6ede1 ;
+        font-family: 'Montserrat', sans-serif;
+        font-size: x-small;
+        font-weight: 200;
+        text-decoration: none;}
+
+        .arriba {color:#A8DADC;
+            font-family: 'Montserrat', sans-serif;
+            font-size: xx-small;
+            font-weight: 200;}
+        .arriba:hover {color:#2f898d;
+            font-family: 'Montserrat', sans-serif;
+            font-size: x-small;
+            font-weight: 200;
+            text-decoration: none;}
+         .fotoindex {display: block;
+                width: 80%;
+                height: 80%;
+                margin: 50px;
+                ;
+                }
+        .inicios {display: inline-block;}
+        .secciones {display: block;}
+
+    /*artistas con bootstrap en el html!!*/
+    .fotoar {width: 60%;
+        height: auto;
+        margin: 10px 0px 10px 60px;}
+    }
