@@ -151,8 +151,8 @@ ul li {list-style-type: none;
     font-family: 'Montserrat', sans-serif;
     font-size: x-large;
     font-weight: 200;
-    margin-top: 40px;}
-/* grids y flex marketplace*/
+    margin: 40px;}
+/* grids y flex exhibiciones*/
 .exhibi {display: grid;
     grid-template-columns: repeat(3,1fr);
     align-items: center;
@@ -162,7 +162,7 @@ ul li {list-style-type: none;
 .grid-exi {display: grid;
         width: 100%;
         height: 100%;
-        grid-template-rows: auto 100% auto;}
+        grid-template-rows: auto;}
 
 /*Estilos Artistas*/
 .fotoar {width: 160%;
@@ -212,12 +212,14 @@ Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una 
         color: #2f898e;}
 .btn:hover {background-color: navajowhite;
             color: #2f898e;}
-/* grid y flex contacto--*/
+.mapa-cont {width: 500px;
+            height: 400px}
+/* grid y flex contacto .......... tiene tambien algo de bootstrap para estilizar formulario--*/
 .grid-contacto {display: grid;
                 grid-template-columns: repeat(2,1fr);
                 }
 
-/*Estilos acercade*/
+/*Estilos acercade ---- acomode con absolut el footer para q quede mas cerca de main, y no quede un gran espacio..pero me gustaria saber como quitarlo*/
 
 .fotode1 {height: 50%;}
 .fotode2 {height: 30%;
@@ -236,11 +238,16 @@ Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una 
     font-weight: 200;}
 .tamaño {width: auto;
         height: 200px;}
-.orden-acerca {float: right;}
+.orden {bottom: 0%;
+        width: 100%;
+        position: absolute;
+        top: 700px;
+        height: 70px;}
 /*grid y flex de acercade*/
 .grid-acerca {display: grid;
           grid-template-columns: 3fr 4fr 3fr;
-           grid-row: 1fr;}
+           grid-row: auto;
+            max-height: 600px;}
 .fundadores {background-color: #4399B3;
             justify-content: center;
             justify-items: center;
@@ -254,39 +261,16 @@ Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una 
 .span {grid-column: span 2;}
 
 
-/*media index*/
+/*responsive index*/
 @media (max-width: 576px) {
-    .markett {padding: 0%;
-        margin: 20px 20px 20px 20px;
-        grid-area:markett}
-    .exhibii {
-        grid-area:exhibii;
-        padding: 1%;
-        margin: 20px 0px 20px 0px;}
-    .art {
-        grid-area:art;
-        padding: 1%;
-        margin: 20px 0px 20px 0px;}
-    .cont {
-        grid-area:cont;
-        padding: 1%;
-        margin: 20px 0px 20px 0px;}
-    .acer {
-        grid-area:acer;
-        padding: 1%;
-        margin: 20px 0px 20px 0px;}
-    .header-nav {display: grid;
-                justify-items: auto;
-                justify-content: center;
-                    grid-template-columns: repeat(5,1fr);
-                    grid-template-rows: 1fr;
-                    grid-template-areas: "markett exhibii art cont acer";}
     .fuentes {font-size: xx-small;
             align-items: center;
             align-content: center;
+            display:inline-block;
+            width: 58px;
             }
-    header {justify-content: flex-start;}
-
+    header {display: flex !important;}
+   .nav-header {margin:auto 7px auto 7px;}
     .fuentes:hover {color:#2f898d;
         background-color: #a6ede1 ;
         font-family: 'Montserrat', sans-serif;
@@ -312,8 +296,78 @@ Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una 
         .inicios {display: inline-block;}
         .secciones {display: block;}
 
-    /*artistas con bootstrap en el html!!*/
-    .fotoar {width: 60%;
+    /*responsive artistas-- con grillas de bootstrap en el html para responsive en main, se me rompe el h1 con una franja blanca ...no pude acomodar bien el header*/
+    .header-art {display: flex;
+                flex-direction: row;
+                align-content: start; }
+   .logo-art {width: 70px;
+          height: 70px;
+          margin: 15px 0px 15px 15px;}
+  .fotoar {width: 70%;
+            height: auto;
+            margin: 10px 0px 10px 60px;}
+    /*responsive market*/
+    .fotomarket {width: 80%;
+        height: 80%;}
+    
+    .fuentes2 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: 200;
+        }
+    .fuentes3 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+        font-weight: 200;
+        }
+    .estilo-mark {background-color: #FFE8CF;
+                border: #FFB36C;
+                border-style: dashed;
+                    }
+     .market {display: flex;
+        flex-direction: column;
+        }
+    /*responsive exhibiciones*/
+
+    .fotoex {width: 70%;
         height: auto;
-        margin: 10px 0px 10px 60px;}
+        margin:7%;}
+    .exhibi  {display: flex;
+            flex-direction: column;}
+    /*responsive contacto- me queda un poco raro el header tambien como sucedio en artistas... ya tienen aplicado bootstrap*/ 
+    .header-cont {display: flex;
+                flex-direction: row;
+                align-content: start;
+                padding: 0%;
+            justify-items: left; 
+        margin: 0%;}
+    .mapa-cont {width: 200px;
+            height: 400px}
+    /*responsive acerca de*/
+.grid-acerca {display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            max-height: 1400px;
+            }
+
+.fotode1 {height: 70%;}
+.fotode2 {height: 30%;
+        float: left;
+        margin: 25px;
+         }
+        
+#final2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin: 20px;}
+.no-acercade {margin: 5px;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden {bottom: 0%;
+            width: 100%;
+            position: absolute;
+            top: 1500px;
+            height: 80px;}
     }
+    
