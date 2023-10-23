@@ -1,0 +1,110 @@
+/*responsive index*/
+@media (max-width: 576px) {
+    .fuentes {font-size: xx-small;
+            align-items: center;
+            align-content: center;
+            display:inline-block;
+            width: 58px;
+            }
+    header {display: flex !important;}
+   .nav-header {margin:auto 7px auto 7px;}
+    .fuentes:hover {color:#2f898d;
+        background-color: #a6ede1 ;
+        font-family: 'Montserrat', sans-serif;
+        font-size: x-small;
+        font-weight: 200;
+        text-decoration: none;}
+
+        .arriba {color:#A8DADC;
+            font-family: 'Montserrat', sans-serif;
+            font-size: xx-small;
+            font-weight: 200;}
+        .arriba:hover {color:#2f898d;
+            font-family: 'Montserrat', sans-serif;
+            font-size: x-small;
+            font-weight: 200;
+            text-decoration: none;}
+         .fotoindex {display: block;
+                width: 80%;
+                height: 80%;
+                margin: 50px;
+                ;
+                }
+        .inicios {display: inline-block;}
+        .secciones {display: block;}
+
+    /*responsive artistas-- con grillas de bootstrap en el html para responsive en main, se me rompe el h1 con una franja blanca ...no pude acomodar bien el header*/
+    .header-art {display: flex;
+                flex-direction: row;
+                align-content: start; }
+   .logo-art {width: 70px;
+          height: 70px;
+          margin: 15px 0px 15px 15px;}
+  .fotoar {width: 70%;
+            height: auto;
+            margin: 10px 0px 10px 60px;}
+    /*responsive market*/
+    .fotomarket {width: 80%;
+        height: 80%;}
+    
+    .fuentes2 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: 200;
+        }
+    .fuentes3 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+        font-weight: 200;
+        }
+    .estilo-mark {background-color: #FFE8CF;
+                border: #FFB36C;
+                border-style: dashed;
+                    }
+     .market {display: flex;
+        flex-direction: column;
+        }
+    /*responsive exhibiciones*/
+
+    .fotoex {width: 70%;
+        height: auto;
+        margin:7%;}
+    .exhibi  {display: flex;
+            flex-direction: column;}
+    /*responsive contacto- me queda un poco raro el header tambien como sucedio en artistas... ya tienen aplicado bootstrap*/ 
+    .header-cont {display: flex;
+                flex-direction: row;
+                align-content: start;
+                padding: 0%;
+            justify-items: left; 
+        margin: 0%;}
+    .mapa-cont {width: 200px;
+            height: 400px}
+    /*responsive acerca de*/
+.grid-acerca {display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            max-height: 1400px;
+            }
+
+.fotode1 {height: 70%;}
+.fotode2 {height: 30%;
+        float: left;
+        margin: 25px;
+         }
+        
+#final2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin: 20px;}
+.no-acercade {margin: 5px;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden {bottom: 0%;
+            width: 100%;
+            position: absolute;
+            top: 1500px;
+            height: 80px;}
+    }
+    

@@ -1,0 +1,47 @@
+.presentacion {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    }
+.fotoindex {width: 40%;
+        height: 40%;
+        margin: 2%;
+        }
+#fotoindex1 {width: 80%;
+            height: auto;
+            margin: 3%;
+         }
+#fotoindex2 {width: 90%;
+            height: auto;
+             margin: 3%;
+            }
+#fotoindex3 {width: 70%;
+           height: auto;
+           margin: 3%;
+        }
+.mapa {width: 100%;
+        height: 100%;}
+        
+.subfoto {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    justify-content: center;
+    
+    }
+
+#final {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;}
+
+/* grids y flex index*/
+.inicios {display: flex;
+         flex-flow: row ;}
+
+.secciones {display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            }

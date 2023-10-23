@@ -1,0 +1,27 @@
+.fotoar {width: 160%;
+    height: auto;
+    margin: 10px 0px 10px 60px;}
+     /*nombres propios*/
+.nombres {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;}
+.main-art {display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr) ;
+    align-content: center;}
+    /*cv*/
+.cv {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    font-weight: 200;}
+.cv:hover {color:#4399B3;
+    background-color: #FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    font-weight: 200;}
+
+/*grid y flex artistas*/
+
+.grid-art { display: grid;
+            grid-template-columns: repeat(4,1fr);}

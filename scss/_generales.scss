@@ -1,0 +1,59 @@
+@import url(../font/static/Montserrat-Black.ttf);
+@import url(../font/Montserrat-VariableFont_wght.ttf);
+
+h1 {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    align-content: center;
+    text-align: center;
+    background-color: #FFF4E9;
+    }
+
+h2 {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    }
+
+    header {background-color: #F1FAEE;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        height: auto;
+        width: 100%;}
+    footer {background-color: #F1FAEE;
+        display: flex;
+        justify-content:center;
+        align-items: center;}
+    main {background-color: #FFF4E9;}
+    
+    /*aca anide*/
+
+    ul { li {list-style-type: none;
+        display: inline-block;
+        margin: 20px 15px 20px 15px;}}
+    
+    .logo {width: 70px;
+        height: 70px;
+        margin: 15px 15px 20px 15px;} 
+
+    /*aca anide el hover*/
+
+    .fuentes {color:#A8DADC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: 200;
+        text-decoration: none;
+        &:hover {color:#2f898d;
+            background-color: #a6ede1 ;
+            }
+        }
+
+    .arriba {color:#A8DADC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: 200;
+    &:hover {color:#2f898d;}
+    }
+    

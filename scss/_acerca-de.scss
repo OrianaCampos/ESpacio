@@ -1,0 +1,40 @@
+/*Estilos acercade ---- acomode con absolut el footer para q quede mas cerca de main, y no quede un gran espacio..pero me gustaria saber como quitarlo*/
+
+.fotode1 {height: 50%;}
+.fotode2 {height: 30%;
+        float: right;
+        margin-bottom: 20px;
+         }
+        
+.nombres2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;}
+
+#final2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden {bottom: 0%;
+        width: 100%;
+        position: absolute;
+        top: 700px;
+        height: 70px;}
+/*grid y flex de acercade*/
+.grid-acerca {display: grid;
+          grid-template-columns: 3fr 4fr 3fr;
+           grid-row: auto;
+            max-height: 600px;}
+.fundadores {background-color: #4399B3;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            height: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50px 200px 200px;
+            }  
+.span {grid-column: span 2;}

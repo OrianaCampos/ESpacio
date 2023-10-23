@@ -1,0 +1,24 @@
+/*Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una franja blanca que no supe arreglar*/
+
+ .contacto {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    margin-bottom: 10px;}
+.datos {background-color: #D6FFEC;
+        justify-content: center;
+        justify-items: center;
+        border: #FFB36C;
+        border-style: solid;
+        padding: 2%;
+        margin-top: 20px;}
+.btn {background-color: #FFB36C;
+        color: #2f898e;}
+.btn:hover {background-color: navajowhite;
+            color: #2f898e;}
+.mapa-cont {width: 500px;
+            height: 400px}
+/* grid y flex contacto .......... tiene tambien algo de bootstrap para estilizar formulario--*/
+.grid-contacto {display: grid;
+                grid-template-columns: repeat(2,1fr);
+                }

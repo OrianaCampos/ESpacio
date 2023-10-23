@@ -1,0 +1,26 @@
+.titulo-market {text-align: center;
+    background-color: #FFF4E9;}
+.fotomarket {width: 80%;
+height: 80%;}
+
+.fuentes2 {color:#FFB36C;
+font-family: 'Montserrat', sans-serif;
+font-size: large;
+font-weight: 200;
+}
+.fuentes3 {color:#FFB36C;
+font-family: 'Montserrat', sans-serif;
+font-size: medium;
+font-weight: 200;
+}
+.estilo-mark {background-color: #FFE8CF;
+border: #FFB36C;
+border-style: dashed;
+    }
+/* grids y flex marketplace*/
+.market {display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+align-content: center;
+text-align: center;
+}

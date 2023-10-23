@@ -1,0 +1,373 @@
+@import url(../font/static/Montserrat-Black.ttf);
+@import url(../font/Montserrat-VariableFont_wght.ttf);
+
+* {margin: 0%;
+padding: 0%;
+box-sizing: border-box;}
+
+/*titulos y subtitulos*/
+
+h1 {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    align-content: center;
+    text-align: center;
+    background-color: #FFF4E9;
+    }
+
+h2 {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    }
+
+
+/* heather, footers y main. general*/
+
+header {background-color: #F1FAEE;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;}
+footer {background-color: #F1FAEE;
+    display: flex;
+    justify-content:center;
+    align-items: center;}
+main {background-color: #FFF4E9;}
+
+ul li {list-style-type: none;
+    display: inline-block;
+    margin: 20px 15px 20px 15px;}
+
+.logo {width: 70px;
+    height: 70px;
+    margin: 15px 15px 20px 15px;} 
+
+.fuentes {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    }
+.fuentes:hover {color:#2f898d;
+    background-color: #a6ede1 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;}
+.arriba {color:#A8DADC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;}
+.arriba:hover {color:#2f898d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;}
+
+/*Estilos Index*/
+.presentacion {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    }
+.fotoindex {width: 40%;
+        height: 40%;
+        margin: 2%;
+        }
+#fotoindex1 {width: 80%;
+            height: auto;
+            margin: 3%;
+         }
+#fotoindex2 {width: 90%;
+            height: auto;
+             margin: 3%;
+            }
+#fotoindex3 {width: 70%;
+           height: auto;
+           margin: 3%;
+        }
+.mapa {width: 100%;
+        height: 100%;}
+.subfoto {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    text-decoration: none;
+    justify-content: center;
+    
+    }
+
+#final {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;}
+
+/* grids y flex index*/
+.inicios {display: flex;
+         flex-flow: row ;}
+
+.secciones {display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            }
+/*Estilos Marketplace*/
+.titulo-market {text-align: center;
+                background-color: #FFF4E9;}
+.fotomarket {width: 80%;
+    height: 80%;}
+
+.fuentes2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    }
+.fuentes3 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    }
+.estilo-mark {background-color: #FFE8CF;
+            border: #FFB36C;
+            border-style: dashed;
+                }
+/* grids y flex marketplace*/
+ .market {display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    }
+
+ /*Estilos Exhibiciones*/
+ .fotoex {width: 80%;
+    height: auto;
+    margin-left: 7%;}
+
+ .fuentes4 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;
+    margin: 40px;}
+/* grids y flex exhibiciones*/
+.exhibi {display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    }
+.grid-exi {display: grid;
+        width: 100%;
+        height: 100%;
+        grid-template-rows: auto;}
+
+/*Estilos Artistas*/
+.fotoar {width: 160%;
+    height: auto;
+    margin: 10px 0px 10px 60px;}
+     /*nombres propios*/
+.nombres {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;}
+.main-art {display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(2,1fr) ;
+    align-content: center;}
+    /*cv*/
+.cv {color:#4399B3;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    font-weight: 200;}
+.cv:hover {color:#4399B3;
+    background-color: #FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    font-weight: 200;}
+
+/*grid y flex artistas*/
+
+.grid-art { display: grid;
+            grid-template-columns: repeat(4,1fr);}
+/*Estilos Contacto
+
+Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una franja blanca que no supe arreglar*/
+
+ .contacto {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: 200;
+    margin-bottom: 10px;}
+.datos {background-color: #D6FFEC;
+        justify-content: center;
+        justify-items: center;
+        border: #FFB36C;
+        border-style: solid;
+        padding: 2%;
+        margin-top: 20px;}
+.btn {background-color: #FFB36C;
+        color: #2f898e;}
+.btn:hover {background-color: navajowhite;
+            color: #2f898e;}
+.mapa-cont {width: 500px;
+            height: 400px}
+/* grid y flex contacto .......... tiene tambien algo de bootstrap para estilizar formulario--*/
+.grid-contacto {display: grid;
+                grid-template-columns: repeat(2,1fr);
+                }
+
+/*Estilos acercade ---- acomode con absolut el footer para q quede mas cerca de main, y no quede un gran espacio..pero me gustaria saber como quitarlo*/
+
+.fotode1 {height: 50%;}
+.fotode2 {height: 30%;
+        float: right;
+        margin-bottom: 20px;
+         }
+        
+.nombres2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+    font-weight: 200;}
+
+#final2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden {bottom: 0%;
+        width: 100%;
+        position: absolute;
+        top: 700px;
+        height: 70px;}
+/*grid y flex de acercade*/
+.grid-acerca {display: grid;
+          grid-template-columns: 3fr 4fr 3fr;
+           grid-row: auto;
+            max-height: 600px;}
+.fundadores {background-color: #4399B3;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            height: 500px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 50px 200px 200px;
+            }  
+.span {grid-column: span 2;}
+
+
+/*responsive index*/
+@media (max-width: 576px) {
+    .fuentes {font-size: xx-small;
+            align-items: center;
+            align-content: center;
+            display:inline-block;
+            width: 58px;
+            }
+    header {display: flex !important;}
+   .nav-header {margin:auto 7px auto 7px;}
+    .fuentes:hover {color:#2f898d;
+        background-color: #a6ede1 ;
+        font-family: 'Montserrat', sans-serif;
+        font-size: x-small;
+        font-weight: 200;
+        text-decoration: none;}
+
+        .arriba {color:#A8DADC;
+            font-family: 'Montserrat', sans-serif;
+            font-size: xx-small;
+            font-weight: 200;}
+        .arriba:hover {color:#2f898d;
+            font-family: 'Montserrat', sans-serif;
+            font-size: x-small;
+            font-weight: 200;
+            text-decoration: none;}
+         .fotoindex {display: block;
+                width: 80%;
+                height: 80%;
+                margin: 50px;
+                ;
+                }
+        .inicios {display: inline-block;}
+        .secciones {display: block;}
+
+    /*responsive artistas-- con grillas de bootstrap en el html para responsive en main, se me rompe el h1 con una franja blanca ...no pude acomodar bien el header*/
+    .header-art {display: flex;
+                flex-direction: row;
+                align-content: start; }
+   .logo-art {width: 70px;
+          height: 70px;
+          margin: 15px 0px 15px 15px;}
+  .fotoar {width: 70%;
+            height: auto;
+            margin: 10px 0px 10px 60px;}
+    /*responsive market*/
+    .fotomarket {width: 80%;
+        height: 80%;}
+    
+    .fuentes2 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: large;
+        font-weight: 200;
+        }
+    .fuentes3 {color:#FFB36C;
+        font-family: 'Montserrat', sans-serif;
+        font-size: medium;
+        font-weight: 200;
+        }
+    .estilo-mark {background-color: #FFE8CF;
+                border: #FFB36C;
+                border-style: dashed;
+                    }
+     .market {display: flex;
+        flex-direction: column;
+        }
+    /*responsive exhibiciones*/
+
+    .fotoex {width: 70%;
+        height: auto;
+        margin:7%;}
+    .exhibi  {display: flex;
+            flex-direction: column;}
+    /*responsive contacto- me queda un poco raro el header tambien como sucedio en artistas... ya tienen aplicado bootstrap*/ 
+    .header-cont {display: flex;
+                flex-direction: row;
+                align-content: start;
+                padding: 0%;
+            justify-items: left; 
+        margin: 0%;}
+    .mapa-cont {width: 200px;
+            height: 400px}
+    /*responsive acerca de*/
+.grid-acerca {display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            max-height: 1400px;
+            }
+
+.fotode1 {height: 70%;}
+.fotode2 {height: 30%;
+        float: left;
+        margin: 25px;
+         }
+        
+#final2 {color:#FFB36C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin: 20px;}
+.no-acercade {margin: 5px;}
+.tamaño {width: auto;
+        height: 200px;}
+.orden {bottom: 0%;
+            width: 100%;
+            position: absolute;
+            top: 1500px;
+            height: 80px;}
+    }
+    
