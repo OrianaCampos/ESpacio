@@ -1,6 +1,24 @@
-.fotoex {width: 80%;
+.foto-exhibicion-1 {width: 80%;
     height: auto;
-    margin-left: 7%;}
+    margin-left: 7%;
+    &:hover{transform: scale(1.8,1.8);
+            display: inline-block;
+            position: relative;
+            left: 400px;}
+           }
+.foto-exhibicion-2 {width: 80%;
+    height: auto;
+    margin-left: 7%;
+    &:hover{transform: scale(1.8,1.8);}
+           }
+.foto-exhibicion-3 {width: 80%;
+    height: auto;
+    margin-left: 7%;
+    &:hover{transform: scale(1.8,1.8);
+            display: inline-block;
+            position: relative;
+            right: 400px;}
+           }
 
  .fuentes4 {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;

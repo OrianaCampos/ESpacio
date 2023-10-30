@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*variables generales*/
 @import url(../font/static/Montserrat-Black.ttf);
 @import url(../font/Montserrat-VariableFont_wght.ttf);
 * {
@@ -44,7 +45,6 @@ main {
   background-color: #FFF4E9;
 }
 
-/*aca anide*/
 ul li {
   list-style-type: none;
   display: inline-block;
@@ -57,7 +57,6 @@ ul li {
   margin: 15px 15px 20px 15px;
 }
 
-/*aca anide el hover*/
 .fuentes {
   color: #A8DADC;
   font-family: "Montserrat", sans-serif;
@@ -134,7 +133,7 @@ ul li {
 }
 
 /* grids y flex index*/
-.inicios {
+.inicios-index {
   display: flex;
   flex-flow: row;
 }
@@ -150,9 +149,31 @@ ul li {
   background-color: #FFF4E9;
 }
 
-.fotomarket {
+.foto-market-1 {
   width: 80%;
   height: 80%;
+}
+.foto-market-1:hover {
+  transform: scale(1.4, 1.4);
+}
+
+.foto-market-2 {
+  width: 80%;
+  height: 80%;
+}
+.foto-market-2:hover {
+  transform: scale(1.8, 1.8);
+}
+
+.foto-market-3 {
+  width: 80%;
+  height: 80%;
+}
+.foto-market-3:hover {
+  transform: scale(1.4, 1.4);
+  display: inline-block;
+  position: relative;
+  right: 30px;
 }
 
 .fuentes2 {
@@ -184,10 +205,37 @@ ul li {
   text-align: center;
 }
 
-.fotoex {
+.foto-exhibicion-1 {
   width: 80%;
   height: auto;
   margin-left: 7%;
+}
+.foto-exhibicion-1:hover {
+  transform: scale(1.8, 1.8);
+  display: inline-block;
+  position: relative;
+  left: 400px;
+}
+
+.foto-exhibicion-2 {
+  width: 80%;
+  height: auto;
+  margin-left: 7%;
+}
+.foto-exhibicion-2:hover {
+  transform: scale(1.8, 1.8);
+}
+
+.foto-exhibicion-3 {
+  width: 80%;
+  height: auto;
+  margin-left: 7%;
+}
+.foto-exhibicion-3:hover {
+  transform: scale(1.8, 1.8);
+  display: inline-block;
+  position: relative;
+  right: 400px;
 }
 
 .fuentes4 {
@@ -214,14 +262,14 @@ ul li {
   grid-template-rows: auto;
 }
 
-.fotoar {
+.foto-art {
   width: 160%;
   height: auto;
   margin: 10px 0px 10px 60px;
 }
 
 /*nombres propios*/
-.nombres {
+.nombres-art {
   color: #FFB36C;
   font-family: "Montserrat", sans-serif;
   font-size: x-large;
@@ -242,7 +290,6 @@ ul li {
   font-size: medium;
   font-weight: 200;
 }
-
 .cv:hover {
   color: #4399B3;
   background-color: #FFB36C;
@@ -280,7 +327,6 @@ ul li {
   background-color: #FFB36C;
   color: #2f898e;
 }
-
 .btn:hover {
   background-color: navajowhite;
   color: #2f898e;
@@ -327,7 +373,7 @@ ul li {
   height: 200px;
 }
 
-.orden {
+.footer-resp-acerca-de {
   bottom: 0%;
   width: 100%;
   position: absolute;
@@ -401,7 +447,7 @@ ul li {
     height: 80%;
     margin: 50px;
   }
-  .inicios {
+  .inicios-index {
     display: inline-block;
   }
   .secciones {
@@ -418,15 +464,21 @@ ul li {
     height: 70px;
     margin: 15px 0px 15px 15px;
   }
-  .fotoar {
-    width: 70%;
+  .foto-art {
+    width: 100%;
     height: auto;
     margin: 10px 0px 10px 60px;
   }
+  .nombres-art {
+    font-size: small;
+  }
   /*responsive market*/
-  .fotomarket {
+  .foto-market-responsive {
     width: 80%;
     height: 80%;
+  }
+  .foto-market-responsive:hover {
+    transform: none;
   }
   .fuentes2 {
     color: #FFB36C;
@@ -450,10 +502,16 @@ ul li {
     flex-direction: column;
   }
   /*responsive exhibiciones*/
-  .fotoex {
+  .foto-exhibicion-responsive {
     width: 70%;
     height: auto;
     margin: 7%;
+  }
+  .foto-exhibicion-responsive:hover {
+    transform: scale(1.3, 1.3);
+    display: inline-block;
+    position: relative;
+    left: 0;
   }
   .exhibi {
     display: flex;
@@ -501,13 +559,19 @@ ul li {
     width: auto;
     height: 200px;
   }
-  .orden {
+  .footer-resp-acerca-de {
     bottom: 0%;
     width: 100%;
     position: absolute;
     top: 1500px;
     height: 80px;
   }
+  .fondo-acerca-de {
+    background-color: #FFF4E9;
+    height: 65%;
+  }
 }
+/*aplique animacion en contacto y en marketplace
+  anide todos los hover y especifidades de etiquetas*/
 
 /*# sourceMappingURL=styles.css.map */

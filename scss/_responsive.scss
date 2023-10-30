@@ -30,7 +30,7 @@
                 margin: 50px;
                 ;
                 }
-        .inicios {display: inline-block;}
+        .inicios-index {display: inline-block;}
         .secciones {display: block;}
 
     /*responsive artistas-- con grillas de bootstrap en el html para responsive en main, se me rompe el h1 con una franja blanca ...no pude acomodar bien el header*/
@@ -40,12 +40,14 @@
    .logo-art {width: 70px;
           height: 70px;
           margin: 15px 0px 15px 15px;}
-  .fotoar {width: 70%;
+  .foto-art {width: 100%;
             height: auto;
             margin: 10px 0px 10px 60px;}
+   .nombres-art {font-size: small;}
     /*responsive market*/
-    .fotomarket {width: 80%;
-        height: 80%;}
+    .foto-market-responsive {width: 80%;
+        height: 80%;
+        &:hover {transform: none;}}
     
     .fuentes2 {color:#FFB36C;
         font-family: 'Montserrat', sans-serif;
@@ -66,9 +68,14 @@
         }
     /*responsive exhibiciones*/
 
-    .fotoex {width: 70%;
+    .foto-exhibicion-responsive {width: 70%;
         height: auto;
-        margin:7%;}
+        margin:7%;
+        &:hover {
+            transform: scale(1.3,1.3);
+            display: inline-block;
+            position: relative;
+            left: 0; }}
     .exhibi  {display: flex;
             flex-direction: column;}
     /*responsive contacto- me queda un poco raro el header tambien como sucedio en artistas... ya tienen aplicado bootstrap*/ 
@@ -101,10 +108,13 @@
 .no-acercade {margin: 5px;}
 .tamaño {width: auto;
         height: 200px;}
-.orden {bottom: 0%;
+.footer-resp-acerca-de {bottom: 0%;
             width: 100%;
             position: absolute;
             top: 1500px;
             height: 80px;}
+.fondo-acerca-de {background-color: $color-fondo;
+                height: 65%;
+                }
     }
     

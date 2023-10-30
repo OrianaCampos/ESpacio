@@ -1,8 +1,22 @@
 .titulo-market {text-align: center;
     background-color: #FFF4E9;}
-.fotomarket {width: 80%;
-height: 80%;}
 
+.foto-market-1 {width: 80%;
+             height: 80%;
+             &:hover{transform: scale(1.4,1.4);
+             }
+            }
+.foto-market-2 {width: 80%;
+             height: 80%;
+             &:hover{transform: scale(1.8,1.8);}
+            }
+.foto-market-3 {width: 80%;
+             height: 80%;
+             &:hover{transform: scale(1.4,1.4);
+            display: inline-block;
+            position: relative;
+             right: 30px;}
+            }
 .fuentes2 {color:#FFB36C;
 font-family: 'Montserrat', sans-serif;
 font-size: large;
