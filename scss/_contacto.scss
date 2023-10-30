@@ -1,4 +1,7 @@
 /*Cuando aplico bootstrap se me rompe un poquito entre el h1 y el main. queda una franja blanca que no supe arreglar*/
+@mixin boton-estilos ($background-color, $color)
+                     {background-color: $background-color;
+                      color: $color;}
 
  .contacto {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
@@ -12,10 +15,11 @@
         border-style: solid;
         padding: 2%;
         margin-top: 20px;}
-.btn {background-color: #FFB36C;
-        color: #2f898e;
+.btn {@include boton-estilos(#FFB36C, #2f898e);
         &:hover {background-color: navajowhite;
                 color: #2f898e;}}
+.btn-submit {@include boton-estilos(#2f898e,navajowhite)}
+
 .mapa-cont {width: 500px;
             height: 400px}
 /* grid y flex contacto .......... tiene tambien algo de bootstrap para estilizar formulario--*/

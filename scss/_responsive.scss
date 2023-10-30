@@ -31,7 +31,7 @@
                 ;
                 }
         .inicios-index {display: inline-block;}
-        .secciones {display: block;}
+        .secciones-index {display: block;}
 
     /*responsive artistas-- con grillas de bootstrap en el html para responsive en main, se me rompe el h1 con una franja blanca ...no pude acomodar bien el header*/
     .header-art {display: flex;
@@ -40,7 +40,7 @@
    .logo-art {width: 70px;
           height: 70px;
           margin: 15px 0px 15px 15px;}
-  .foto-art {width: 100%;
+  .foto-art {width: 70%;
             height: auto;
             margin: 10px 0px 10px 60px;}
    .nombres-art {font-size: small;}
@@ -49,12 +49,12 @@
         height: 80%;
         &:hover {transform: none;}}
     
-    .fuentes2 {color:#FFB36C;
+    .fuentes2-mark {color:#FFB36C;
         font-family: 'Montserrat', sans-serif;
         font-size: large;
         font-weight: 200;
         }
-    .fuentes3 {color:#FFB36C;
+    .fuentes3-mark {color:#FFB36C;
         font-family: 'Montserrat', sans-serif;
         font-size: medium;
         font-weight: 200;
@@ -94,13 +94,13 @@
             max-height: 1400px;
             }
 
-.fotode1 {height: 70%;}
-.fotode2 {height: 30%;
+.foto-acercade1 {height: 70%;}
+.foto-acercade2 {height: 30%;
         float: left;
         margin: 25px;
          }
         
-#final2 {color:#FFB36C;
+#final-acercade {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;

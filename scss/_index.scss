@@ -1,4 +1,4 @@
-.presentacion {color:#4399B3;
+.presentacion-index {color:#4399B3;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;
@@ -20,10 +20,10 @@
            height: auto;
            margin: 3%;
         }
-.mapa {width: 100%;
+.mapa-index {width: 100%;
         height: 100%;}
         
-.subfoto {color:#4399B3;
+.subfoto-index {color:#4399B3;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;
@@ -32,7 +32,7 @@
     
     }
 
-#final {color:#FFB36C;
+#final-index {color:#FFB36C;
     font-family: 'Montserrat', sans-serif;
     font-size: large;
     font-weight: 200;}
@@ -41,7 +41,7 @@
 .inicios-index {display: flex;
          flex-flow: row ;}
 
-.secciones {display: grid;
+.secciones-index {display: grid;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: auto;
             }
