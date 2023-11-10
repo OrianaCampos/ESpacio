@@ -1,7 +1,25 @@
 @charset "UTF-8";
-/*variables generales*/
 @import url(../font/static/Montserrat-Black.ttf);
 @import url(../font/Montserrat-VariableFont_wght.ttf);
+#error {
+  font-size: 70px;
+  text-align: center;
+  background-color: #FFF4E9;
+}
+
+.err {
+  color: #47a0a3;
+}
+
+.img-error {
+  text-align: center;
+}
+
+.body-error {
+  background-color: #F1FAEE;
+}
+
+/*variables generales*/
 * {
   margin: 0%;
   padding: 0%;
@@ -567,10 +585,6 @@ ul li {
     height: 65%;
   }
 }
-.error {
-  background-color: #F1FAEE;
-}
-
 /*----aplique animacion en exhibiciones y en marketplace
   ----anide todos los hover y especifidades de etiquetas
  ---- aplique el mixin en los botones de contactos
