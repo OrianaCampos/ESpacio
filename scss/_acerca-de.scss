@@ -1,4 +1,4 @@
-/*Estilos acercade ---- acomode con absolut el footer para q quede mas cerca de main, y no quede un gran espacio..pero me gustaria saber como quitarlo*/
+
 
 .foto-acercade1 {height: 50%;}
 .foto-acercade2 {height: 30%;
@@ -17,16 +17,12 @@
     font-weight: 200;}
 .tamaño {width: auto;
         height: 200px;}
-.footer-resp-acerca-de {bottom: 0%;
-        width: 100%;
-        position: absolute;
-        top: 700px;
-        height: 70px;}
+
 /*grid y flex de acercade*/
 .grid-acerca {display: grid;
-          grid-template-columns: 3fr 4fr 3fr;
+          grid-template-columns: 3fr 3fr 3fr;
            grid-row: auto;
-            max-height: 600px;
+            max-height: 100%;
         }
 .fundadores {background-color: #4399B3;
             justify-content: center;
